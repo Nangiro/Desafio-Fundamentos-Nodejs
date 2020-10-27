@@ -1,5 +1,7 @@
 import { uuid } from 'uuidv4';
 
+// Model responsavel por retornar um novo objeto com todos os dados necessarios
+
 class Transaction {
   id: string;
 
