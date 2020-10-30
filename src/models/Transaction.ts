@@ -1,4 +1,5 @@
-import { uuid } from 'uuidv4';
+import { validate as isUuid } from 'uuid';
+import { v4 as uuid } from 'uuid';
 
 // Model responsavel por retornar um novo objeto com todos os dados necessarios
 
